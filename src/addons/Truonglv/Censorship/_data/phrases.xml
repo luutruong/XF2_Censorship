@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="permission.general_tlCensorship_canOnOff" version_id="1000000" version_string="1.0.0"><![CDATA[[tl] Censorship: Allow turn on/off censorship]]></phrase>
+  <phrase title="tl_censorship.disable_censorship_content" version_id="1000000" version_string="1.0.0"><![CDATA[Disable censorship content]]></phrase>
+</phrases>
