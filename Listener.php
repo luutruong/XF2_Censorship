@@ -6,6 +6,7 @@
 
 namespace Truonglv\Censorship;
 
+use XF;
 use XF\Entity\User;
 use XF\Mvc\Entity\Entity;
 
@@ -18,7 +19,7 @@ class Listener
 
     public static function isDisabledCensor(User $user = null)
     {
-        $user = $user ?: \XF::visitor();
+        $user = $user ?: XF::visitor();
 
         if (!$user->user_id) {
             return false;

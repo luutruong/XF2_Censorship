@@ -1,0 +1,1 @@
+[tl] Censorship: Allow turn on/off censorship

@@ -1,0 +1,9 @@
+{
+    "template": "account_preferences",
+    "description": "Add input turn on/off censorship.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "label=\"{{ phrase('show_peoples_signatures_with_their_messages') }}\" />",
+    "replace": "$0\n<xf:option name=\"option[tl_censorship_enabled]\"\n\t\t   selected=\"{{ $xf.visitor.Option.tl_censorship_enabled ? 0 : 1}}\"\n\t\t   label=\"{{ phrase('tl_censorship.disable_censorship_content') }}\" />"
+}

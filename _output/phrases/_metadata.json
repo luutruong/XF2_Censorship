@@ -1,0 +1,14 @@
+{
+    "permission.general_tlCensorship_canOnOff.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "af0263ab909768dfefb22557bf91a562"
+    },
+    "tl_censorship.disable_censorship_content.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "ea0a056bbadeb89a27df2aac20c8f867"
+    }
+}

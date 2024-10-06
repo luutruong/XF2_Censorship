@@ -6,12 +6,7 @@
 
 namespace Truonglv\Censorship\XF\Pub\Controller;
 
-/**
- * Class Account
- * @package Truonglv\Censorship\XF\Pub\Controller
- * @inheritdoc
- */
-class Account extends XFCP_Account
+class AccountController extends XFCP_AccountController
 {
     protected function preferencesSaveProcess(\XF\Entity\User $visitor)
     {
